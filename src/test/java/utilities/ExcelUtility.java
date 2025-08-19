@@ -54,7 +54,6 @@ public class ExcelUtility {
 		return cellcount;
 	}
 	
-	
 	public String getCellData(String sheetName,int rownum,int colnum) throws IOException
 	{
 		fi=new FileInputStream(path);
@@ -106,7 +105,6 @@ public class ExcelUtility {
 		fi.close();
 		fo.close();
 	}
-	
 	
 	public void fillGreenColor(String sheetName,int rownum,int colnum) throws IOException
 	{

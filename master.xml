@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ChromeSuite">
+  <parameter name="os" value="Windows" />
+  <parameter name="browser" value="edge" />
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="3" name="Test">
+    <classes>
+      <class name="testCases.EnterpriseFormValidation"/>
+      <class name="testCases.searchCourse"/>
+      <class name="testCases.forLanguage"/>
+    </classes>
+  </test>
+</suite>
+

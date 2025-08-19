@@ -24,18 +24,21 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 import org.apache.logging.log4j.LogManager;  //Log4j
 import org.apache.logging.log4j.Logger;  //Log4j
 
 
 public class BaseClass 
 {
-	//public static WebDriver driver; //for capture screenshot make it static other wise remove static
+//	public static WebDriver driver; //for capture screenshot make it static other wise remove static
 	public WebDriver driver; 
 	public Logger logger;  //Log4j
 	public Properties p;
+	public TakesScreenshot screen;
 	
-	@BeforeClass(groups= {"Sanity","Regression","Master"})
+	@BeforeClass
 	@Parameters({"os","browser"})
 	public void setup(String os, String br) throws IOException
 	{
@@ -85,11 +88,10 @@ public class BaseClass
 				
 		if(p.getProperty("execution_env").equalsIgnoreCase("local"))
 		{
-
 			switch(br.toLowerCase())
 			{
 				case "chrome" : driver=new ChromeDriver(); break;
-				case "edge" : driver=new EdgeDriver(); break;
+				case "edge" : WebDriverManager.edgedriver().setup(); driver=new EdgeDriver(); break;
 				case "firefox": driver=new FirefoxDriver(); break;
 				default : System.out.println("Invalid browser name.."); return;
 			}
@@ -100,10 +102,12 @@ public class BaseClass
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		driver.get(p.getProperty("appURL")); // reading URL from properties file.
+//		driver.get("https://www.coursera.org/");	
 		driver.manage().window().maximize();
+		screen = (TakesScreenshot) driver;
 	}
 	
-	@AfterClass(groups= {"Sanity","Regression","Master"})
+	@AfterClass
 	public void tearDown()
 	{
 		driver.quit();
@@ -132,8 +136,8 @@ public class BaseClass
 	{
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 				
-		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
-		File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
+//		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+		File sourceFile = screen.getScreenshotAs(OutputType.FILE);
 		
 		String targetFilePath=System.getProperty("user.dir")+"\\screenshots\\" + tname + "_" + timeStamp + ".png";
 		File targetFile=new File(targetFilePath);

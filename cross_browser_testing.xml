@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" thread-count="5">
+  
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  
+  <test thread-count="3" name="Windows-Chrome">
+  <parameter name="os" value="Windows" />
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="testCases.EnterpriseFormValidation"/>
+      <class name="testCases.searchCourse"/>
+      <class name="testCases.forLanguage"/>
+    </classes>
+  </test>
+  
+  <test thread-count="3" name="Windows-Edge">
+  <parameter name="os" value="Windows" />
+  <parameter name="browser" value="edge" />
+    <classes>
+      <class name="testCases.EnterpriseFormValidation"/>
+      <class name="testCases.searchCourse"/>
+      <class name="testCases.forLanguage"/>
+    </classes>
+  </test>
+  
+</suite>

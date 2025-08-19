@@ -76,15 +76,16 @@ public class ExtentReportManager implements ITestListener {
 		}
 	}
 
-	public void onTestSuccess(ITestResult result) {
-	
+	public void onTestSuccess(ITestResult result) 
+	{
 		test = extent.createTest(result.getTestClass().getName());
 		test.assignCategory(result.getMethod().getGroups()); // to display groups in report
 		test.log(Status.PASS,result.getName()+" got successfully executed");
 		
 	}
 
-	public void onTestFailure(ITestResult result) {
+	public void onTestFailure(ITestResult result) 
+	{
 		test = extent.createTest(result.getTestClass().getName());
 		test.assignCategory(result.getMethod().getGroups());
 		
@@ -103,15 +104,16 @@ public class ExtentReportManager implements ITestListener {
 		
 	}
 
-	public void onTestSkipped(ITestResult result) {
+	public void onTestSkipped(ITestResult result) 
+	{
 		test = extent.createTest(result.getTestClass().getName());
 		test.assignCategory(result.getMethod().getGroups());
 		test.log(Status.SKIP, result.getName()+" got skipped");
 		test.log(Status.INFO, result.getThrowable().getMessage());
 	}
 
-	public void onFinish(ITestContext testContext) {
-		
+	public void onFinish(ITestContext testContext) 
+	{
 		extent.flush();
 		
 		//To open report on desktop..
@@ -123,72 +125,7 @@ public class ExtentReportManager implements ITestListener {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
-		//To send email with attachment
-		//sendEmail(sender email,sender password(encrypted),recipient email);
 		
-	}
-	
-	
-	//User defined method for sending email..
-	public void sendEmail(String senderEmail,String senderPassword,String recipientEmail)
-	{
-		// SMTP server properties
-        Properties properties = new Properties();
-        properties.put("mail.smtp.auth", "true");
-        properties.put("mail.smtp.starttls.enable", "true");
-        properties.put("mail.smtp.host", "smtp.gmail.com");
-        properties.put("mail.smtp.port", "587");
-
-        // Create a Session object
-        Session session = Session.getInstance(properties, new Authenticator() {
-           protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication(senderEmail, senderPassword);
-            }
-        });
-
-        try {
-            // Create a MimeMessage object
-            Message message = new MimeMessage(session);
-
-            // Set the sender and recipient addresses
-            message.setFrom(new InternetAddress(senderEmail));
-            message.setRecipient(Message.RecipientType.TO, new InternetAddress(recipientEmail));
-
-            // Set the subject
-            message.setSubject("Test Report with attachment");
-
-            // Create a MimeMultipart object
-            Multipart multipart = new MimeMultipart();
-
-            // Attach the file
-            String filePath = ".\\reports\\"+repName;
-            String fileName = repName;
-
-            MimeBodyPart attachmentPart = new MimeBodyPart();
-            attachmentPart.attachFile(filePath);
-            attachmentPart.setFileName(fileName);
-
-            // Create a MimeBodyPart for the text content
-            MimeBodyPart textPart = new MimeBodyPart();
-            textPart.setText("Please find the attached file.");
-
-            // Add the parts to the multipart
-            multipart.addBodyPart(textPart);
-            multipart.addBodyPart(attachmentPart);
-
-            // Set the content of the message
-            message.setContent(multipart);
-
-            // Send the message
-            Transport.send(message);
-
-            System.out.println("Email sent successfully!");
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-            
 	}
 
 }
