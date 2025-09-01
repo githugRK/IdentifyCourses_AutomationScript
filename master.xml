@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="ChromeSuite">
   <parameter name="os" value="Windows" />
-  <parameter name="browser" value="edge" />
+  <parameter name="browser" value="chrome"/>
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>

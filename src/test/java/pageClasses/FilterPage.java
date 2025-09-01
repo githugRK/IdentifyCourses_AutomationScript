@@ -23,9 +23,9 @@ public class FilterPage extends BasePage {
     
     JavascriptExecutor js = (JavascriptExecutor) driver;
 
-    @FindBy(xpath = "(//span[text()='Beginner'])[2]")
+    @FindBy(xpath = "(//span[text()='Beginner'])")
     private WebElement beginner;
-
+    
     @FindBy(xpath = "//span[text()='Intermediate']")
     private WebElement intermediate;
 
@@ -61,6 +61,7 @@ public class FilterPage extends BasePage {
 
     public void clickBeginner() {
         try {
+//        	js.executeScript("arguments[0].scrollIntoView(true);", beginners);
             beginner.click();
         } catch (Exception e) {
             Assert.fail("Failed to click Beginner filter: " + e.getMessage());

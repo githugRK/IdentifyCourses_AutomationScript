@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-29T10:51:27 IST" name="ChromeSuite" finished-at="2025-08-29T10:52:42 IST" duration-ms="75329">
+  <suite started-at="2025-09-01T15:22:33 IST" name="ChromeSuite" finished-at="2025-09-01T15:23:53 IST" duration-ms="79943">
     <groups>
     </groups>
-    <test started-at="2025-08-29T10:51:27 IST" name="Test" finished-at="2025-08-29T10:52:42 IST" duration-ms="75329">
+    <test started-at="2025-09-01T15:22:33 IST" name="Test" finished-at="2025-09-01T15:23:53 IST" duration-ms="79943">
       <class name="testCases.TC_001_SearchCourse">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_SearchCourse@6d763516]" started-at="2025-08-29T10:51:27 IST" name="setup" finished-at="2025-08-29T10:51:36 IST" duration-ms="8886" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_SearchCourse@6572421]" started-at="2025-09-01T15:22:34 IST" name="setup" finished-at="2025-09-01T15:22:42 IST" duration-ms="8060" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,24 +16,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="courseList()[pri:0, instance:testCases.TC_001_SearchCourse@6d763516]" started-at="2025-08-29T10:51:36 IST" name="courseList" finished-at="2025-08-29T10:51:44 IST" duration-ms="7502" status="PASS">
+        <test-method signature="courseList()[pri:0, instance:testCases.TC_001_SearchCourse@6572421]" started-at="2025-09-01T15:22:42 IST" name="courseList" finished-at="2025-09-01T15:22:49 IST" duration-ms="7504" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- courseList -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_SearchCourse@6d763516]" started-at="2025-08-29T10:51:44 IST" name="tearDown" finished-at="2025-08-29T10:51:47 IST" duration-ms="3564" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_SearchCourse@6572421]" started-at="2025-09-01T15:22:49 IST" name="tearDown" finished-at="2025-09-01T15:22:53 IST" duration-ms="3413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_001_SearchCourse -->
       <class name="testCases.TC_003_EnterpriseFormValidation">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_EnterpriseFormValidation@16293aa2]" started-at="2025-08-29T10:52:18 IST" name="setup" finished-at="2025-08-29T10:52:22 IST" duration-ms="3880" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_EnterpriseFormValidation@6ae5aa72]" started-at="2025-09-01T15:23:27 IST" name="setup" finished-at="2025-09-01T15:23:32 IST" duration-ms="5735" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,18 +42,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="openEnterprisePage()[pri:1, instance:testCases.TC_003_EnterpriseFormValidation@16293aa2]" started-at="2025-08-29T10:52:22 IST" name="openEnterprisePage" finished-at="2025-08-29T10:52:29 IST" duration-ms="6612" status="PASS">
+        <test-method signature="openEnterprisePage()[pri:1, instance:testCases.TC_003_EnterpriseFormValidation@6ae5aa72]" started-at="2025-09-01T15:23:32 IST" name="openEnterprisePage" finished-at="2025-09-01T15:23:40 IST" duration-ms="7339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openEnterprisePage -->
-        <test-method signature="courseList(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC_003_EnterpriseFormValidation@16293aa2]" started-at="2025-08-29T10:52:30 IST" name="courseList" data-provider="EnterpriseFormValidation" finished-at="2025-08-29T10:52:38 IST" duration-ms="7457" status="PASS">
+        <test-method signature="courseList(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC_003_EnterpriseFormValidation@6ae5aa72]" started-at="2025-09-01T15:23:42 IST" name="courseList" data-provider="EnterpriseFormValidation" finished-at="2025-09-01T15:23:49 IST" duration-ms="6614" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,13 +114,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- courseList -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_EnterpriseFormValidation@16293aa2]" started-at="2025-08-29T10:52:38 IST" name="tearDown" finished-at="2025-08-29T10:52:42 IST" duration-ms="4441" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_EnterpriseFormValidation@6ae5aa72]" started-at="2025-09-01T15:23:49 IST" name="tearDown" finished-at="2025-09-01T15:23:53 IST" duration-ms="4292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_003_EnterpriseFormValidation -->
       <class name="testCases.TC_002_SearchLanguages">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_SearchLanguages@5c5eefef]" started-at="2025-08-29T10:51:47 IST" name="setup" finished-at="2025-08-29T10:51:52 IST" duration-ms="4671" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_SearchLanguages@6c64cb25]" started-at="2025-09-01T15:22:53 IST" name="setup" finished-at="2025-09-01T15:22:59 IST" duration-ms="6165" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -129,18 +129,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="courseList()[pri:0, instance:testCases.TC_002_SearchLanguages@5c5eefef]" started-at="2025-08-29T10:51:52 IST" name="courseList" finished-at="2025-08-29T10:52:14 IST" duration-ms="22519" status="PASS">
+        <test-method signature="courseList()[pri:0, instance:testCases.TC_002_SearchLanguages@6c64cb25]" started-at="2025-09-01T15:22:59 IST" name="courseList" finished-at="2025-09-01T15:23:23 IST" duration-ms="24359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- courseList -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_SearchLanguages@5c5eefef]" started-at="2025-08-29T10:52:14 IST" name="tearDown" finished-at="2025-08-29T10:52:18 IST" duration-ms="3588" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_SearchLanguages@6c64cb25]" started-at="2025-09-01T15:23:23 IST" name="tearDown" finished-at="2025-09-01T15:23:27 IST" duration-ms="3439" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

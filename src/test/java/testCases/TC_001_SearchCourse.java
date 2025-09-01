@@ -21,7 +21,7 @@ public class TC_001_SearchCourse extends BaseClass{
 		FilterPage fp = new FilterPage(driver);
 		logger.info("Filtering ---> lanuage: English and Level:Beginning");
 		
-		fp.clickBeginner();
+//		fp.clickBeginner();
 		fp.clickEnglish();
 		fp.coursesDetails();
 	}
