@@ -7,9 +7,9 @@
   </listeners>
   <test thread-count="3" name="Test">
     <classes>
-      <class name="testCases.EnterpriseFormValidation"/>
-      <class name="testCases.searchCourse"/>
-      <class name="testCases.forLanguage"/>
+   	  <class name="testCases.TC_001_SearchCourse"/>
+   	  <class name="testCases.TC_002_SearchLanguages"/>
+      <class name="testCases.TC_003_EnterpriseFormValidation"/>
     </classes>
   </test>
 </suite>

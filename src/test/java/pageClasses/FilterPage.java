@@ -23,7 +23,7 @@ public class FilterPage extends BasePage {
     
     JavascriptExecutor js = (JavascriptExecutor) driver;
 
-    @FindBy(xpath = "//span[text()='Beginner']")
+    @FindBy(xpath = "(//span[text()='Beginner'])[2]")
     private WebElement beginner;
 
     @FindBy(xpath = "//span[text()='Intermediate']")
@@ -35,7 +35,7 @@ public class FilterPage extends BasePage {
     @FindBy(xpath = "//span[text()='Mixed']")
     private WebElement mixed;
 
-    @FindBy(xpath = "//span[@id='cds-react-aria-:Rhlbdj2tacqkqikta:-label-text']")
+    @FindBy(xpath = "//span[@id='cds-react-aria-:R8qlmphel6dakqdqla:-label-text']")
     private WebElement english;
 
     @FindBy(css = ".cds-9.css-0.cds-11.cds-grid-item.cds-56.cds-64.cds-76.cds-90")
@@ -136,7 +136,7 @@ public class FilterPage extends BasePage {
     public void clickOnShow() 
     {
         try {
-            showButton.get(1).click();
+            showButton.get(2).click();
         } catch (Exception e) {
             Assert.fail("Failed to click Show button: " + e.getMessage());
         }

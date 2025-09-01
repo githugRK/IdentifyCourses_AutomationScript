@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-19T21:28:03 IST" name="ChromeSuite" finished-at="2025-08-19T21:31:38 IST" duration-ms="215183">
+  <suite started-at="2025-08-29T10:51:27 IST" name="ChromeSuite" finished-at="2025-08-29T10:52:42 IST" duration-ms="75329">
     <groups>
     </groups>
-    <test started-at="2025-08-19T21:28:03 IST" name="Test" finished-at="2025-08-19T21:31:38 IST" duration-ms="215183">
-      <class name="testCases.searchCourse">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.searchCourse@5c5eefef]" started-at="2025-08-19T21:30:17 IST" name="setup" finished-at="2025-08-19T21:30:26 IST" duration-ms="9114" status="PASS">
+    <test started-at="2025-08-29T10:51:27 IST" name="Test" finished-at="2025-08-29T10:52:42 IST" duration-ms="75329">
+      <class name="testCases.TC_001_SearchCourse">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_SearchCourse@6d763516]" started-at="2025-08-29T10:51:27 IST" name="setup" finished-at="2025-08-29T10:51:36 IST" duration-ms="8886" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,17 +23,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="courseList()[pri:0, instance:testCases.searchCourse@5c5eefef]" started-at="2025-08-19T21:30:26 IST" name="courseList" finished-at="2025-08-19T21:30:42 IST" duration-ms="16508" status="PASS">
+        <test-method signature="courseList()[pri:0, instance:testCases.TC_001_SearchCourse@6d763516]" started-at="2025-08-29T10:51:36 IST" name="courseList" finished-at="2025-08-29T10:51:44 IST" duration-ms="7502" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- courseList -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.searchCourse@5c5eefef]" started-at="2025-08-19T21:30:42 IST" name="tearDown" finished-at="2025-08-19T21:30:48 IST" duration-ms="5301" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_SearchCourse@6d763516]" started-at="2025-08-29T10:51:44 IST" name="tearDown" finished-at="2025-08-29T10:51:47 IST" duration-ms="3564" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.searchCourse -->
-      <class name="testCases.EnterpriseFormValidation">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.EnterpriseFormValidation@6d763516]" started-at="2025-08-19T21:28:03 IST" name="setup" finished-at="2025-08-19T21:28:16 IST" duration-ms="12444" status="PASS">
+      </class> <!-- testCases.TC_001_SearchCourse -->
+      <class name="testCases.TC_003_EnterpriseFormValidation">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_EnterpriseFormValidation@16293aa2]" started-at="2025-08-29T10:52:18 IST" name="setup" finished-at="2025-08-29T10:52:22 IST" duration-ms="3880" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,11 +49,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="openEnterprisePage()[pri:1, instance:testCases.EnterpriseFormValidation@6d763516]" started-at="2025-08-19T21:28:16 IST" name="openEnterprisePage" finished-at="2025-08-19T21:29:58 IST" duration-ms="102346" status="PASS">
+        <test-method signature="openEnterprisePage()[pri:1, instance:testCases.TC_003_EnterpriseFormValidation@16293aa2]" started-at="2025-08-29T10:52:22 IST" name="openEnterprisePage" finished-at="2025-08-29T10:52:29 IST" duration-ms="6612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openEnterprisePage -->
-        <test-method signature="courseList(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.EnterpriseFormValidation@6d763516]" started-at="2025-08-19T21:30:01 IST" name="courseList" data-provider="EnterpriseFormValidation" finished-at="2025-08-19T21:30:11 IST" duration-ms="10712" status="PASS">
+        <test-method signature="courseList(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC_003_EnterpriseFormValidation@16293aa2]" started-at="2025-08-29T10:52:30 IST" name="courseList" data-provider="EnterpriseFormValidation" finished-at="2025-08-29T10:52:38 IST" duration-ms="7457" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,13 +114,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- courseList -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.EnterpriseFormValidation@6d763516]" started-at="2025-08-19T21:30:11 IST" name="tearDown" finished-at="2025-08-19T21:30:17 IST" duration-ms="5080" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_EnterpriseFormValidation@16293aa2]" started-at="2025-08-29T10:52:38 IST" name="tearDown" finished-at="2025-08-29T10:52:42 IST" duration-ms="4441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.EnterpriseFormValidation -->
-      <class name="testCases.forLanguage">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.forLanguage@16293aa2]" started-at="2025-08-19T21:30:48 IST" name="setup" finished-at="2025-08-19T21:30:56 IST" duration-ms="8290" status="PASS">
+      </class> <!-- testCases.TC_003_EnterpriseFormValidation -->
+      <class name="testCases.TC_002_SearchLanguages">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_SearchLanguages@5c5eefef]" started-at="2025-08-29T10:51:47 IST" name="setup" finished-at="2025-08-29T10:51:52 IST" duration-ms="4671" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -136,15 +136,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="courseList()[pri:0, instance:testCases.forLanguage@16293aa2]" started-at="2025-08-19T21:30:56 IST" name="courseList" finished-at="2025-08-19T21:31:32 IST" duration-ms="36676" status="PASS">
+        <test-method signature="courseList()[pri:0, instance:testCases.TC_002_SearchLanguages@5c5eefef]" started-at="2025-08-29T10:51:52 IST" name="courseList" finished-at="2025-08-29T10:52:14 IST" duration-ms="22519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- courseList -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.forLanguage@16293aa2]" started-at="2025-08-19T21:31:32 IST" name="tearDown" finished-at="2025-08-19T21:31:38 IST" duration-ms="5368" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_SearchLanguages@5c5eefef]" started-at="2025-08-29T10:52:14 IST" name="tearDown" finished-at="2025-08-29T10:52:18 IST" duration-ms="3588" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.forLanguage -->
+      </class> <!-- testCases.TC_002_SearchLanguages -->
     </test> <!-- Test -->
   </suite> <!-- ChromeSuite -->
 </testng-results>

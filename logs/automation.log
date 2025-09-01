@@ -1,162 +1,57 @@
-2025-08-19 13:55:34 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Users\2417950\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\eclipse\Hackathon_Idea_Coursera\testng.xml] otherwise TestNG may fail or not work as expected.
-2025-08-19 13:55:34 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2417950\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\eclipse\Hackathon_Idea_Coursera\testng.xml
-
-2025-08-19 13:59:09 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Users\2417950\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\eclipse\Hackathon_Idea_Coursera\testng.xml] otherwise TestNG may fail or not work as expected.
-2025-08-19 13:59:09 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2417950\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\eclipse\Hackathon_Idea_Coursera\testng.xml
-
-2025-08-19 14:03:21 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Users\2417950\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\eclipse\Hackathon_Idea_Coursera\testng.xml] otherwise TestNG may fail or not work as expected.
-2025-08-19 14:03:21 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2417950\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\eclipse\Hackathon_Idea_Coursera\testng.xml
-
-2025-08-19 14:03:28 INFO  EnterpriseFormValidation:17 - Opening Enterprise Page
-2025-08-19 14:03:58 INFO  EnterpriseFormValidation:24 - Starting TC_002_EnterpriseFormValidation
-2025-08-19 14:04:06 INFO  EnterpriseFormValidation:41 - TestCase:2 executed successfully
-2025-08-19 14:04:18 INFO  searchCourse:15 - Strating TC_002_Search For Course
-2025-08-19 14:04:18 INFO  searchCourse:18 - Search for Web Development
-2025-08-19 14:04:27 INFO  searchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
-2025-08-19 14:04:45 INFO  forLanguage:13 - Strating TC_003 search for language learning
-2025-08-19 14:04:56 INFO  forLanguage:18 - Fliter languages
-2025-08-19 14:04:56 INFO  forLanguage:21 - languages with level count
-2025-08-19 14:05:18 INFO  forLanguage:24 - TestCase:3 executed successfully
-2025-08-19 16:51:38 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Users\2417950\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\eclipse\Hackathon_Idea_Coursera\grid_standalone.xml] otherwise TestNG may fail or not work as expected.
-2025-08-19 16:51:38 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2417950\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\eclipse\Hackathon_Idea_Coursera\grid_standalone.xml
-
-2025-08-19 16:51:58 INFO  EnterpriseFormValidation:17 - Opening Enterprise Page
-2025-08-19 16:52:47 INFO  EnterpriseFormValidation:24 - Starting TC_002_EnterpriseFormValidation
-2025-08-19 16:52:55 INFO  EnterpriseFormValidation:41 - TestCase:2 executed successfully
-2025-08-19 16:53:08 INFO  searchCourse:15 - Strating TC_002_Search For Course
-2025-08-19 16:53:08 INFO  searchCourse:18 - Search for Web Development
-2025-08-19 16:53:13 INFO  searchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
-2025-08-19 16:53:29 INFO  forLanguage:13 - Strating TC_003 search for language learning
-2025-08-19 16:53:35 INFO  forLanguage:18 - Fliter languages
-2025-08-19 16:53:35 INFO  forLanguage:21 - languages with level count
-2025-08-19 16:53:52 INFO  forLanguage:24 - TestCase:3 executed successfully
-2025-08-19 16:55:14 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Users\2417950\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\eclipse\Hackathon_Idea_Coursera\testng.xml] otherwise TestNG may fail or not work as expected.
-2025-08-19 16:55:14 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\2417950\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\eclipse\Hackathon_Idea_Coursera\testng.xml
-
-2025-08-19 17:03:27 INFO  EnterpriseFormValidation:17 - Opening Enterprise Page
-2025-08-19 17:03:42 INFO  EnterpriseFormValidation:24 - Starting TC_002_EnterpriseFormValidation
-2025-08-19 17:03:50 INFO  EnterpriseFormValidation:41 - TestCase:2 executed successfully
-2025-08-19 17:04:03 INFO  searchCourse:15 - Strating TC_002_Search For Course
-2025-08-19 17:04:03 INFO  searchCourse:18 - Search for Web Development
-2025-08-19 17:04:11 INFO  searchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
-2025-08-19 17:04:29 INFO  forLanguage:13 - Strating TC_003 search for language learning
-2025-08-19 17:04:36 INFO  forLanguage:18 - Fliter languages
-2025-08-19 17:04:36 INFO  forLanguage:21 - languages with level count
-2025-08-19 17:04:58 INFO  forLanguage:24 - TestCase:3 executed successfully
-2025-08-19 17:06:14 INFO  EnterpriseFormValidation:17 - Opening Enterprise Page
-2025-08-19 17:06:32 INFO  EnterpriseFormValidation:24 - Starting TC_002_EnterpriseFormValidation
-2025-08-19 17:06:41 INFO  EnterpriseFormValidation:41 - TestCase:2 executed successfully
-2025-08-19 17:06:58 INFO  searchCourse:15 - Strating TC_002_Search For Course
-2025-08-19 17:06:58 INFO  searchCourse:18 - Search for Web Development
-2025-08-19 17:07:07 INFO  searchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
-2025-08-19 17:07:26 INFO  forLanguage:13 - Strating TC_003 search for language learning
-2025-08-19 17:07:32 INFO  forLanguage:18 - Fliter languages
-2025-08-19 17:07:32 INFO  forLanguage:21 - languages with level count
-2025-08-19 17:07:55 INFO  forLanguage:24 - TestCase:3 executed successfully
-2025-08-19 17:08:17 INFO  EnterpriseFormValidation:17 - Opening Enterprise Page
-2025-08-19 17:08:29 INFO  EnterpriseFormValidation:24 - Starting TC_002_EnterpriseFormValidation
-2025-08-19 17:08:38 INFO  EnterpriseFormValidation:41 - TestCase:2 executed successfully
-2025-08-19 17:08:53 INFO  searchCourse:15 - Strating TC_002_Search For Course
-2025-08-19 17:08:53 INFO  searchCourse:18 - Search for Web Development
-2025-08-19 17:09:00 INFO  searchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
-2025-08-19 17:09:19 INFO  forLanguage:13 - Strating TC_003 search for language learning
-2025-08-19 17:09:27 INFO  forLanguage:18 - Fliter languages
-2025-08-19 17:09:27 INFO  forLanguage:21 - languages with level count
-2025-08-19 17:09:46 INFO  forLanguage:24 - TestCase:3 executed successfully
-2025-08-19 17:12:57 INFO  EnterpriseFormValidation:17 - Opening Enterprise Page
-2025-08-19 17:13:12 INFO  EnterpriseFormValidation:24 - Starting TC_002_EnterpriseFormValidation
-2025-08-19 17:13:22 INFO  EnterpriseFormValidation:41 - TestCase:2 executed successfully
-2025-08-19 17:13:36 INFO  searchCourse:15 - Strating TC_002_Search For Course
-2025-08-19 17:13:36 INFO  searchCourse:18 - Search for Web Development
-2025-08-19 17:13:43 INFO  searchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
-2025-08-19 17:14:01 INFO  forLanguage:13 - Strating TC_003 search for language learning
-2025-08-19 17:14:08 INFO  forLanguage:18 - Fliter languages
-2025-08-19 17:14:08 INFO  forLanguage:21 - languages with level count
-2025-08-19 17:14:30 INFO  forLanguage:24 - TestCase:3 executed successfully
-2025-08-19 17:14:49 INFO  EnterpriseFormValidation:17 - Opening Enterprise Page
-2025-08-19 17:14:59 INFO  EnterpriseFormValidation:24 - Starting TC_002_EnterpriseFormValidation
-2025-08-19 17:15:08 INFO  EnterpriseFormValidation:41 - TestCase:2 executed successfully
-2025-08-19 17:15:23 INFO  searchCourse:15 - Strating TC_002_Search For Course
-2025-08-19 17:15:23 INFO  searchCourse:18 - Search for Web Development
-2025-08-19 17:15:31 INFO  searchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
-2025-08-19 17:15:49 INFO  forLanguage:13 - Strating TC_003 search for language learning
-2025-08-19 17:15:54 INFO  forLanguage:18 - Fliter languages
-2025-08-19 17:15:54 INFO  forLanguage:21 - languages with level count
-2025-08-19 17:16:14 INFO  forLanguage:24 - TestCase:3 executed successfully
-2025-08-19 17:26:38 INFO  searchCourse:15 - Strating TC_002_Search For Course
-2025-08-19 17:26:38 INFO  searchCourse:15 - Strating TC_002_Search For Course
-2025-08-19 17:26:38 INFO  searchCourse:18 - Search for Web Development
-2025-08-19 17:26:38 INFO  searchCourse:18 - Search for Web Development
-2025-08-19 17:26:49 INFO  searchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
-2025-08-19 17:27:09 INFO  forLanguage:13 - Strating TC_003 search for language learning
-2025-08-19 17:27:19 INFO  forLanguage:18 - Fliter languages
-2025-08-19 17:27:19 INFO  forLanguage:21 - languages with level count
-2025-08-19 17:27:49 INFO  forLanguage:24 - TestCase:3 executed successfully
-2025-08-19 17:28:05 INFO  EnterpriseFormValidation:17 - Opening Enterprise Page
-2025-08-19 17:28:24 INFO  EnterpriseFormValidation:24 - Starting TC_002_EnterpriseFormValidation
-2025-08-19 17:28:33 INFO  EnterpriseFormValidation:41 - TestCase:2 executed successfully
-2025-08-19 17:40:15 INFO  searchCourse:15 - Strating TC_002_Search For Course
-2025-08-19 17:40:15 INFO  searchCourse:18 - Search for Web Development
-2025-08-19 17:40:15 INFO  searchCourse:15 - Strating TC_002_Search For Course
-2025-08-19 17:40:15 INFO  searchCourse:18 - Search for Web Development
-2025-08-19 17:40:25 INFO  searchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
-2025-08-19 17:40:25 INFO  searchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
-2025-08-19 17:40:45 INFO  forLanguage:13 - Strating TC_003 search for language learning
-2025-08-19 17:40:48 INFO  forLanguage:13 - Strating TC_003 search for language learning
-2025-08-19 17:40:57 INFO  forLanguage:18 - Fliter languages
-2025-08-19 17:40:57 INFO  forLanguage:21 - languages with level count
-2025-08-19 17:40:59 INFO  forLanguage:18 - Fliter languages
-2025-08-19 17:40:59 INFO  forLanguage:21 - languages with level count
-2025-08-19 17:41:31 INFO  forLanguage:24 - TestCase:3 executed successfully
-2025-08-19 17:41:31 INFO  forLanguage:24 - TestCase:3 executed successfully
-2025-08-19 17:41:44 INFO  EnterpriseFormValidation:17 - Opening Enterprise Page
-2025-08-19 17:41:45 INFO  EnterpriseFormValidation:17 - Opening Enterprise Page
-2025-08-19 17:42:01 INFO  EnterpriseFormValidation:24 - Starting TC_002_EnterpriseFormValidation
-2025-08-19 17:42:01 INFO  EnterpriseFormValidation:24 - Starting TC_002_EnterpriseFormValidation
-2025-08-19 17:42:11 INFO  EnterpriseFormValidation:41 - TestCase:2 executed successfully
-2025-08-19 17:42:12 INFO  EnterpriseFormValidation:41 - TestCase:2 executed successfully
-2025-08-19 17:47:49 INFO  searchCourse:15 - Strating TC_002_Search For Course
-2025-08-19 17:47:49 INFO  searchCourse:15 - Strating TC_002_Search For Course
-2025-08-19 17:47:49 INFO  searchCourse:18 - Search for Web Development
-2025-08-19 17:47:49 INFO  searchCourse:18 - Search for Web Development
-2025-08-19 17:47:58 INFO  searchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
-2025-08-19 17:48:00 INFO  searchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
-2025-08-19 17:48:22 INFO  forLanguage:13 - Strating TC_003 search for language learning
-2025-08-19 17:48:22 INFO  forLanguage:13 - Strating TC_003 search for language learning
-2025-08-19 17:48:30 INFO  forLanguage:18 - Fliter languages
-2025-08-19 17:48:30 INFO  forLanguage:21 - languages with level count
-2025-08-19 17:48:34 INFO  forLanguage:18 - Fliter languages
-2025-08-19 17:48:34 INFO  forLanguage:21 - languages with level count
-2025-08-19 17:48:51 INFO  forLanguage:24 - TestCase:3 executed successfully
-2025-08-19 17:49:03 INFO  forLanguage:24 - TestCase:3 executed successfully
-2025-08-19 17:49:07 INFO  EnterpriseFormValidation:17 - Opening Enterprise Page
-2025-08-19 17:49:22 INFO  EnterpriseFormValidation:24 - Starting TC_002_EnterpriseFormValidation
-2025-08-19 17:49:24 INFO  EnterpriseFormValidation:17 - Opening Enterprise Page
-2025-08-19 17:49:31 INFO  EnterpriseFormValidation:41 - TestCase:2 executed successfully
-2025-08-19 17:49:32 INFO  EnterpriseFormValidation:24 - Starting TC_002_EnterpriseFormValidation
-2025-08-19 17:49:39 INFO  EnterpriseFormValidation:41 - TestCase:2 executed successfully
-2025-08-19 18:35:37 INFO  EnterpriseFormValidation:17 - Opening Enterprise Page
-2025-08-19 18:35:49 INFO  EnterpriseFormValidation:24 - Starting TC_002_EnterpriseFormValidation
-2025-08-19 18:35:55 INFO  EnterpriseFormValidation:41 - TestCase:2 executed successfully
-2025-08-19 18:36:04 INFO  searchCourse:15 - Strating TC_002_Search For Course
-2025-08-19 18:36:04 INFO  searchCourse:18 - Search for Web Development
-2025-08-19 18:36:10 INFO  searchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
-2025-08-19 18:36:23 INFO  forLanguage:13 - Strating TC_003 search for language learning
-2025-08-19 18:36:30 INFO  forLanguage:18 - Fliter languages
-2025-08-19 18:36:30 INFO  forLanguage:21 - languages with level count
-2025-08-19 18:36:49 INFO  forLanguage:24 - TestCase:3 executed successfully
-2025-08-19 21:28:16 INFO  EnterpriseFormValidation:17 - Opening Enterprise Page
-2025-08-19 21:30:01 INFO  EnterpriseFormValidation:24 - Starting TC_002_EnterpriseFormValidation
-2025-08-19 21:30:11 INFO  EnterpriseFormValidation:41 - TestCase:2 executed successfully
-2025-08-19 21:30:26 INFO  searchCourse:15 - Strating TC_002_Search For Course
-2025-08-19 21:30:26 INFO  searchCourse:18 - Search for Web Development
-2025-08-19 21:30:37 INFO  searchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
-2025-08-19 21:30:56 INFO  forLanguage:13 - Strating TC_003 search for language learning
-2025-08-19 21:31:11 INFO  forLanguage:18 - Fliter languages
-2025-08-19 21:31:11 INFO  forLanguage:21 - languages with level count
-2025-08-19 21:31:32 INFO  forLanguage:24 - TestCase:3 executed successfully
+2025-09-01 10:29:35 INFO  TC_001_SearchCourse:15 - Strating TC_001_Search For Course
+2025-09-01 10:29:35 INFO  TC_001_SearchCourse:18 - Search for Web Development
+2025-09-01 10:29:40 INFO  TC_001_SearchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
+2025-09-01 10:30:39 INFO  TC_001_SearchCourse:15 - Strating TC_001_Search For Course
+2025-09-01 10:30:39 INFO  TC_001_SearchCourse:18 - Search for Web Development
+2025-09-01 10:30:45 INFO  TC_001_SearchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
+2025-09-01 11:40:45 INFO  TC_001_SearchCourse:15 - Strating TC_001_Search For Course
+2025-09-01 11:40:45 INFO  TC_001_SearchCourse:18 - Search for Web Development
+2025-09-01 11:40:49 INFO  TC_001_SearchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
+2025-09-01 11:45:25 INFO  TC_001_SearchCourse:15 - Strating TC_001_Search For Course
+2025-09-01 11:45:25 INFO  TC_001_SearchCourse:18 - Search for Web Development
+2025-09-01 11:45:30 INFO  TC_001_SearchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
+2025-09-01 11:46:33 INFO  TC_001_SearchCourse:15 - Strating TC_001_Search For Course
+2025-09-01 11:46:33 INFO  TC_001_SearchCourse:18 - Search for Web Development
+2025-09-01 11:46:37 INFO  TC_001_SearchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
+2025-09-01 11:48:06 INFO  TC_001_SearchCourse:15 - Strating TC_001_Search For Course
+2025-09-01 11:48:06 INFO  TC_001_SearchCourse:18 - Search for Web Development
+2025-09-01 11:48:10 INFO  TC_001_SearchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
+2025-09-01 11:49:45 INFO  TC_001_SearchCourse:15 - Strating TC_001_Search For Course
+2025-09-01 11:49:45 INFO  TC_001_SearchCourse:18 - Search for Web Development
+2025-09-01 11:49:49 INFO  TC_001_SearchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
+2025-09-01 11:59:59 INFO  TC_001_SearchCourse:15 - Strating TC_001_Search For Course
+2025-09-01 11:59:59 INFO  TC_001_SearchCourse:18 - Search for Web Development
+2025-09-01 12:00:04 INFO  TC_001_SearchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
+2025-09-01 12:00:17 INFO  TC_002_SearchLanguages:13 - Strating TC_002_SearchLanguages for language learning
+2025-09-01 12:00:24 INFO  TC_002_SearchLanguages:18 - Fliter languages
+2025-09-01 12:00:24 INFO  TC_002_SearchLanguages:21 - languages with level count
+2025-09-01 12:00:42 INFO  TC_002_SearchLanguages:24 - TestCase:2 executed successfully
+2025-09-01 12:00:52 INFO  TC_003_EnterpriseFormValidation:15 - Opening Enterprise Page
+2025-09-01 12:01:03 INFO  TC_003_EnterpriseFormValidation:22 - Starting TC_003_EnterpriseFormValidation
+2025-09-01 12:01:10 INFO  TC_003_EnterpriseFormValidation:39 - TestCase:3 executed successfully
+2025-09-01 14:25:50 INFO  TC_001_SearchCourse:15 - Strating TC_001_Search For Course
+2025-09-01 14:25:50 INFO  TC_001_SearchCourse:18 - Search for Web Development
+2025-09-01 14:25:54 INFO  TC_001_SearchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
+2025-09-01 14:26:38 INFO  TC_001_SearchCourse:15 - Strating TC_001_Search For Course
+2025-09-01 14:26:38 INFO  TC_001_SearchCourse:18 - Search for Web Development
+2025-09-01 14:26:44 INFO  TC_001_SearchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
+2025-09-01 14:26:56 INFO  TC_002_SearchLanguages:13 - Strating TC_002_SearchLanguages for language learning
+2025-09-01 14:27:01 INFO  TC_002_SearchLanguages:18 - Fliter languages
+2025-09-01 14:27:01 INFO  TC_002_SearchLanguages:21 - languages with level count
+2025-09-01 14:27:19 INFO  TC_002_SearchLanguages:24 - TestCase:2 executed successfully
+2025-09-01 14:27:30 INFO  TC_003_EnterpriseFormValidation:15 - Opening Enterprise Page
+2025-09-01 14:27:42 INFO  TC_003_EnterpriseFormValidation:22 - Starting TC_003_EnterpriseFormValidation
+2025-09-01 14:27:49 INFO  TC_003_EnterpriseFormValidation:39 - TestCase:3 executed successfully
+2025-09-01 14:34:58 INFO  TC_001_SearchCourse:15 - Strating TC_001_Search For Course
+2025-09-01 14:34:58 INFO  TC_001_SearchCourse:18 - Search for Web Development
+2025-09-01 14:35:02 INFO  TC_001_SearchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
+2025-09-01 14:35:46 INFO  TC_001_SearchCourse:15 - Strating TC_001_Search For Course
+2025-09-01 14:35:46 INFO  TC_001_SearchCourse:18 - Search for Web Development
+2025-09-01 14:35:50 INFO  TC_001_SearchCourse:22 - Filtering ---> lanuage: English and Level:Beginning
+2025-09-01 14:36:01 INFO  TC_002_SearchLanguages:13 - Strating TC_002_SearchLanguages for language learning
+2025-09-01 14:36:06 INFO  TC_002_SearchLanguages:18 - Fliter languages
+2025-09-01 14:36:06 INFO  TC_002_SearchLanguages:21 - languages with level count
+2025-09-01 14:36:24 INFO  TC_002_SearchLanguages:24 - TestCase:2 executed successfully
+2025-09-01 14:36:33 INFO  TC_003_EnterpriseFormValidation:15 - Opening Enterprise Page
+2025-09-01 14:36:43 INFO  TC_003_EnterpriseFormValidation:22 - Starting TC_003_EnterpriseFormValidation
+2025-09-01 14:36:50 INFO  TC_003_EnterpriseFormValidation:39 - TestCase:3 executed successfully

@@ -46,7 +46,7 @@ public class BaseClass
 		FileReader file=new FileReader("./src//test//resources//config.properties");
 		p=new Properties();
 		p.load(file);
-				
+		
 		logger=LogManager.getLogger(this.getClass());  //lOG4J2
 				
 		if(p.getProperty("execution_env").equalsIgnoreCase("remote"))
@@ -85,7 +85,7 @@ public class BaseClass
 			driver=new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
 		}
 		
-				
+			
 		if(p.getProperty("execution_env").equalsIgnoreCase("local"))
 		{
 			switch(br.toLowerCase())
@@ -113,30 +113,18 @@ public class BaseClass
 		driver.quit();
 	}
 	
-	public String randomeString()
-	{
-		String generatedstring=RandomStringUtils.randomAlphabetic(5);
-		return generatedstring;
-	}
-	
-	public String randomeNumber()
-	{
-		String generatednumber=RandomStringUtils.randomNumeric(10);
-		return generatednumber;
-	}
-	
-	public String randomeAlphaNumberic()
-	{
-		String generatedstring=RandomStringUtils.randomAlphabetic(3);
-		String generatednumber=RandomStringUtils.randomNumeric(3);
-		return (generatedstring+"@"+generatednumber);
-	}
-	
 	public String captureScreen(String tname) throws IOException 
 	{
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 				
 //		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+
+		if (screen == null) 
+		{
+			System.out.println("WebDriver is not initialized. Cannot capture screenshot.");
+		    return "";
+		}
+
 		File sourceFile = screen.getScreenshotAs(OutputType.FILE);
 		
 		String targetFilePath=System.getProperty("user.dir")+"\\screenshots\\" + tname + "_" + timeStamp + ".png";
